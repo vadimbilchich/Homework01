@@ -1,2 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿
+int a = -9;
+int b = -3;
+
+if (a > b)
+{
+    Console.WriteLine("Большее число " + a);
+    Console.WriteLine("Меньшее число " + b);
+}
+else
+{
+    Console.WriteLine("Большее число " + b);
+    Console.WriteLine("Меньшее число " + a);
+}
+
+
+
